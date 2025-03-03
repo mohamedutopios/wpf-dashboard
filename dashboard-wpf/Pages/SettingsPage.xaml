@@ -1,0 +1,16 @@
+﻿<Page x:Class="AdminDashboard.Pages.SettingsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Paramètres">
+    <StackPanel Margin="20">
+        <TextBlock Text="Paramètres" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"/>
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+            <TextBlock Text="Option 1:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+            <CheckBox/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+            <TextBlock Text="Option 2:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+            <CheckBox/>
+        </StackPanel>
+    </StackPanel>
+</Page>
